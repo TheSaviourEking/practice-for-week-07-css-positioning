@@ -1,5 +1,6 @@
 html, body {
     font-family: sans-serif;
+    height: 200vh;
 }
 
 .container {
@@ -42,10 +43,10 @@ html, body {
     /* Fill these in */
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 30rem;
     right: 0;
-    top: 0;
-    z-index: ;
+    top: 50%;
+    z-index: -1;
 }
 
 #red-box {
@@ -55,8 +56,10 @@ html, body {
     bottom: 0;
     left: 0;
     right: 0;
-    top: 0;
+    top: 24rem;
     z-index: ;
+    width: 5rem;
+    height: 5rem;
 }
 
 #orange-box {
@@ -66,6 +69,6 @@ html, body {
     bottom: 0;
     left: 0;
     right: 0;
-    top: 0;
+    top: 10px;
     z-index: ;
 }
